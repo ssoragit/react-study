@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div style={{ padding: "30px", fontFamily: "sans-serif", color: "#fff", maxWidth: "500px", margin: "0 auto" }}>
-      <h1>📝 進化したTODOリスト</h1>
+      <h1 style={{ fontSize: "26px" }}>📝 To Do リスト</h1>
       <p style={{ color: "#aaa" }}>現在のタスク数: {todos.length}件</p>
 
       <form onSubmit={addTodo} style={{ marginBottom: "20px" }}>
